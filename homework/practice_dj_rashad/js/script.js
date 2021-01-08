@@ -1,17 +1,17 @@
-const Body = document.querySelector('body');
-console.log(Body);
+const body = document.querySelector('body');
+console.log(body);
 
-console.log(Body.style);
-Body.style['background-color'] = "#696969";
+console.log(body.style);
+body.style['background-color'] = "#696969";
 
-const Page = document.querySelector('.page');
-console.log(Page);
+const page = document.querySelector('.page');
+console.log(page);
 
-console.log(Page.style);
-Page.style['color'] = "ghostwhite";
+console.log(page.style);
+page.style['color'] = "ghostwhite";
 
-const Name = document.querySelector('.name');
-Name.textContent = 'DJ Rashad';
+const name = document.querySelector('.name');
+name.textContent = 'DJ Rashad';
 
 const image = document.querySelector('img');
 console.log(image.getAttribute('src'));
