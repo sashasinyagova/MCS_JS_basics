@@ -1,11 +1,11 @@
 
-function haveEnough (totalCash, watchesCount, earringsCount, price, watchesSum, earringsSum) {
-    totalCash = +prompt('Your cash');
-	watchesCount = +prompt('How many watches do you want?');
-	earringsCount = +prompt('How many earrings do you want?');
-	price = +prompt('Price of items');
-	watchesSum = watchesCount*price;
-	earringsSum = earringsCount*price;
+function haveEnough () {
+    let totalCash = +prompt('Your cash');
+	let watchesCount = +prompt('How many watches do you want?');
+	let earringsCount = +prompt('How many earrings do you want?');
+	let price = +prompt('Price of items');
+	let watchesSum = watchesCount*price;
+	let earringsSum = earringsCount*price;
 
 	if (totalCash >= watchesSum+earringsSum) {
 		console.log('Enough $$$');
